@@ -4,7 +4,6 @@ import java.time.LocalTime;
 
 import lombok.AllArgsConstructor;
 
-@AllArgsConstructor
 public class ApiResponse {
    
 	private String message;
@@ -17,32 +16,24 @@ public class ApiResponse {
 		this.isSuccess = isSuccess;
 		this.currentTime = currentTime;
 	}
-
 	public LocalTime getCurrentTime() {
 		return currentTime;
 	}
-
 	public void setCurrentTime(LocalTime currentTime) {
 		this.currentTime = currentTime;
 	}
-
 	public String getMessage() {
 		return message;
 	}
-
 	public void setMessage(String message) {
 		this.message = message;
 	}
-
 	public boolean isSuccess() {
 		return isSuccess;
 	}
-
 	public void setSuccess(boolean isSuccess) {
 		this.isSuccess = isSuccess;
 	}
-
-	
 	
 	
 	
